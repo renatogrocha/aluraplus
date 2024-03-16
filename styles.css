@@ -128,7 +128,7 @@ body {
 
 .rodape {
     text-align: center;
-    margin: 5em 3em;
+    margin: 10em 3em 3em 3em;
 }
 
 .rodape__imagem {
@@ -183,6 +183,7 @@ body {
 
     .secondary__imagem {
         width: 40vw;
+        margin: 0 0 1em 0;
     }
 
     .container__descricao {
@@ -192,6 +193,7 @@ body {
 
     .secondary__button {
         text-align: center;
+        margin: 2em 0;
     }
 
     .dispositivos__tittle {
@@ -200,9 +202,14 @@ body {
 
     .dispositivos__lista {
         display: block;
+        padding: 0;
     }
 
     .rodape__links__lista {
         display: block;
+    }
+
+    .links__lista__item {
+        margin: 0;
     }
 }
